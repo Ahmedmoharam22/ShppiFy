@@ -1,0 +1,20 @@
+.product-detils .add-cart{
+  padding: 0 !important;
+}
+.love-details svg{
+  padding: 7px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: var(--trans);
+  background-color: #20b52528 ;
+  color: var(--color_green);
+  border-radius: 5px;
+}
+.love-details svg.active,
+.love-details svg:hover{
+  background-color: var(--color_green) !important;
+  color: var(--color_white) !important;
+  border-color: var(--color_green) !important;
+  outline: none;
+  
+}

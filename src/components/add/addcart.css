@@ -1,0 +1,21 @@
+.group-button span{
+  width: 22px;
+  height: 22px;
+}
+.group-button .decrease,
+.group-button .add {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: var(--color_green);
+  color: var(--color_white);
+}
+/* .add-btn {
+  background-color: var(--color_green) !important;
+} */
+.add-btn svg {
+  font-size: 1.5rem;
+  margin-left: 4px;
+}

@@ -1,0 +1,14 @@
+.page-item:hover{
+  background-color: transparent !important;
+  border-bottom-color: transparent !important ;
+}
+.page-item.active .page-link{
+  background-color: var(--color_green) !important;
+  border-color: var(--color_green) !important;
+  color: var(--color_white) !important;
+
+}
+.page-link{
+  color: var(--color_green) !important;
+  overflow: hidden !important;
+}

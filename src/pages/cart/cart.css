@@ -1,0 +1,11 @@
+.decrease-item , .add-item {
+  background-color: var(--color_green);
+  color: var(--color_white);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  
+}
